@@ -29,7 +29,7 @@ const LoginPage = () =>{
     }
     const loginClick= async(e)=>{
         e.preventDefault();
-        const response=await fetch('http://localhost:5000/loginServer/allLogins', {
+        const response=await fetch('https://bas-travels.onrender.com/loginServer/allLogins', {
             method: 'POST',
              body: JSON.stringify(login),
             headers: {

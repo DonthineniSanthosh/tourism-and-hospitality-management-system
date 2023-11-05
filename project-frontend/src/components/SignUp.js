@@ -49,7 +49,7 @@ const SignUpPage = () =>{
         }
         else if(isValidEmail(emailSignUp) && isValidPassword(passwordSignUp)){
             // const response=
-            await fetch('http://localhost:5000/signUpServer/addSignUp',{
+            await fetch('https://bas-travels.onrender.com/signUpServer/addSignUp',{
                 method: 'POST',
                 body: JSON.stringify(signUp),
                 headers: {
