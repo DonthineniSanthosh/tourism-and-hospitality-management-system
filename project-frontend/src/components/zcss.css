@@ -340,6 +340,8 @@ a{
   height:300px;
   width:300px;
   border-radius: 300px;
+  background-image: url('./images/about-logo.png');
+  background-size: cover;
   border-color: #fff;
   border-style: solid;
   margin:12px 0px 34px 0px;
